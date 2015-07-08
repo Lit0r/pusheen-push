@@ -3,7 +3,9 @@ Why push when you can Pusheen?
 
 
 Want more Pusheen in your life? (duh. of course.)
+
 Like source control? (is that even a question?)
+
 Well, now you can have both at once! Pushing a bux fix is much more rewarding
 with a cute cat at the end of it.
 
@@ -29,11 +31,17 @@ and will apply to any repo, given you act as the same user.
 use:
 
 git push [args] 
+
 becomes
+
 git pusheen [args]
 
+and
+
 hg push [args]
+
 becomes
+
 hg pusheen [args]
 
 and you get Pusheen if the push didn't have errors (for now).
@@ -45,8 +53,11 @@ I don't own any rights to Pusheen (Pusheen Corp. does, http://pusheen.com) but
 I made all of the ASCII art of Pusheen in this project (hopefully) in the 
 likeness of pusheen.
 
+
 Elliot Rosen 2015
 
+
 dedicated to:
+
 Pusheen, Lilli, and anyone else capable of inspiring people to go ':3'
 
