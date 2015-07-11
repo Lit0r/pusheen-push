@@ -37,7 +37,7 @@ Like so:
     Username for 'https://github.com': Lit0r
     Password for 'https://Lit0r@github.com':
     To https://github.com/Lit0r/pusheen-push.git
-      5b5a621..f26c27f  master -> master
+       5b5a621..f26c27f  master -> master
     
                      _-`~_
                     /     \                  _-_
