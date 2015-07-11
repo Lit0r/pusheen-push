@@ -11,7 +11,7 @@ with a cute cat at the end of it.
 
 #Support
 
-pusheen-push should work with mercurial or git, running on either mac or linux.
+This should work with mercurial or git, running on either mac or linux.
 
 #Setup
 
@@ -72,6 +72,8 @@ Like so:
              `~--___|   |__________|   |___(####   \##  __#/
                     \__/           \__/     *###__-***"'
     this-is-a-shell-prompt$
+
+Yay! :3
 
 --------------------------------------------------------------------------------
 
