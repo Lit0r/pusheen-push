@@ -89,6 +89,16 @@ away.
 You can always put the alias in other git/mercurial configuration files as well!
 The setup scripts I provided are merely a convenience.
 
+More on aliases:
+
+https://git.wiki.kernel.org/index.php/Aliases
+
+https://www.selenic.com/mercurial/hgrc.5.html#alias
+
+--------------------------------------------------------------------------------
+
+
+
 _Why am I entering my password into your script?!_
 
 The script acts as a wrapper for 'git/hg push', so it acts just like a normal
