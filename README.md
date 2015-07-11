@@ -1,68 +1,107 @@
-# pusheen-push
-Why push when you can Pusheen?
+#Why push when you can _pusheen_?
 
-Want more Pusheen in your life? (duh. of course.)
+Want more Pusheen in your life? _duh. of course._
 
-Like source control? (is that even a question?)
+Like source control? _is that even a question?_
 
 Well, now you can have both at once! Pushing a bux fix is much more rewarding
 with a cute cat at the end of it.
 
 --------------------------------------------------------------------------------
 
-Supported source control:
-git, mercurial
+#Support
 
-Supported OS:
-Mac and Linux
+pusheen-push should work with mercurial or git, running on either mac or linux.
+
+#Setup
+
+For git:
+    
+    cd /this/is/a/path/pusheen-push
+    ./git_pusheen_setup.sh
+
+For mercurial:
+    
+    cd /this/is/a/path/pusheen-push
+    ./hg_pusheen_setup.sh
+
+and that's it!
+
+#Use
+
+Just use 'pusheen' in place of 'push', leaving all arguments intact.
+
+Like so:
+
+    this-is-a-shell-prompt$ git pusheen -f
+    Username for 'https://github.com': Lit0r
+    Password for 'https://Lit0r@github.com':
+    To https://github.com/Lit0r/pusheen-push.git
+      5b5a621..f26c27f  master -> master
+    
+                     _-`~_
+                    /     \                  _-_
+                  /        \               /    \
+                /           &#''"##~-==-_/       \
+          `~-_ /            **   **  &#          \
+        -__   / '                                 \___--
+           ` T~-      @@                        -~ \
+            /                 -_+_-      @@      __-X~~~~
+           |                   '-'                     \
+          /                                            '-_
+         /                                                \
+        /                                                  &\
+       /                                                  $##\
+      /                                                   &####\
+      /                                                    **"  \
+     /                                                        %##\
+    /                                                        &###\
+    /                                                          &###\
+    |                                                              \
+    |                                                               \
+    |                                                               |
+    |                                                               |
+    |                                                               |
+    |                                                               |
+    \                                                               |
+     \                                                             /
+      \                                                           /
+       \                                                          /
+        `\                                               _%&    /
+          `\                                ___----==~~/ &#&__/
+             `~--___|   |__________|   |___(####   \##  __#/
+                    \__/           \__/     *###__-***"'
+    this-is-a-shell-prompt$
 
 --------------------------------------------------------------------------------
 
-setup:
-[git|hg]_pusheen_setup.sh
+#Notes
 
-or add an alias to "[this folder]/push.sh [git|hg]" in the appropriate config 
-file yourself. Chances are you already know how to do this, or know how to ask
-the internet for the answer :)
+These scripts will add an alias to ~/.gitconfig or ~/.hgrc, so that it will work
+on all repositories. 
 
-You should only have to run setup once for it to take effect.
+If for some unknown reason you don't want this anymore, you just need to remove 
+the 'pusheen = .....' line from ~/.gitconfig or ~/.hgrc, and the effect will go 
+away.
 
-The setup files will add a pusheen alias to the config file in your home folder,
-and will apply to any repo, given you act as the same user.
+You can always put the alias in other git/mercurial configuration files as well!
+The setup scripts I provided are merely a convenience.
 
-If you move these files, make sure to update your aliases.
+#Hey wait! Why am I entering my password into your script?!
 
---------------------------------------------------------------------------------
-
-use:
-
-"git push [args]" 
-becomes 
-"git pusheen [args]"
-
-and
-
-"hg push [args]"
-becomes
-"hg pusheen [args]"
-
-and you get Pusheen if the push didn't have errors (for now).
+Well, the script acts as a wrapper for 'git/hg push', so it acts like a normal
+push, minus the pusheen bit. The wrapper code (in push.sh) is extremely simple,
+so if you don't trust me, you can examine it yourself.
 
 --------------------------------------------------------------------------------
 
-upcoming:
-more Pusheens!
+dedicated to:
 
---------------------------------------------------------------------------------
-
-dedicated to: 
 Pusheen, Lilli, and anyone else capable of inspiring people to go ':3'
 
 --------------------------------------------------------------------------------
 
 I don't own any rights to Pusheen (Pusheen Corp. does, http://pusheen.com) but
-I made all of the ASCII art of Pusheen in this project (hopefully) in the 
-likeness of pusheen.
+the ASCII representation of Pusheen in this project are my own creations.
 
 Elliot Rosen 2015
-
