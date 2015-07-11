@@ -87,21 +87,17 @@ away.
 You can always put the alias in other git/mercurial configuration files as well!
 The setup scripts I provided are merely a convenience.
 
-#Hey wait! Why am I entering my password into your script?!
+_Why am I entering my password into your script?!_
 
-Well, the script acts as a wrapper for 'git/hg push', so it acts like a normal
+The script acts as a wrapper for 'git/hg push', so it acts just like a normal
 push, minus the pusheen bit. The wrapper code (in push.sh) is extremely simple,
 so if you don't trust me, you can examine it yourself.
 
 --------------------------------------------------------------------------------
 
-dedicated to:
-
-Pusheen, Lilli, and anyone else capable of inspiring people to go ':3'
-
---------------------------------------------------------------------------------
+dedicated to Pusheen, Lilli, and anyone else capable of inspiring people to go ':3'
 
 I don't own any rights to Pusheen (Pusheen Corp. does, http://pusheen.com) but
-the ASCII representation of Pusheen in this project are my own creations.
+the ASCII representations of Pusheen in this project are my own creations.
 
 Elliot Rosen 2015
